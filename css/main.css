@@ -1,0 +1,33 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    background-color: #131b21;
+}
+.bgn {
+    background-color: black;
+    border: 1px solid #fff;
+}
+.htext {
+color: #ffffff;
+font-weight: inherit;
+line-height: 1.2;
+}
+.ltext {
+    color: #ffff;
+}
+
+
+
+.mastfoot.mb-auto{
+    padding-top: 25px;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #212529;
+    color: white;
+    border-radius: 10px;
+}
