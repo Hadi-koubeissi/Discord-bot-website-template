@@ -1,0 +1,74 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    background-color: #131b21;
+}
+.bgn {
+    background-color: black;
+    border: 1px solid #fff;
+}
+.htext {
+color: #ffffff;
+font-weight: inherit;
+line-height: 1.2;
+}
+.ltext {
+    color: #ffff;
+}
+.wh {
+    color: #ffffff;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.Hbot {
+    color: #AD91FF !important;
+}
+.Hbot:hover {
+    font-size: 30px;
+    text-shadow: #ffffff;
+}
+.textt {
+    color: #a2a8bd;
+}
+.card {
+    border: 1px solid #ffffff;
+}
+.card:hover {
+     border: 3px solid black;
+}
+.cardds{
+margin-top: 30px !important;
+padding: 60px 50px !important;
+}
+
+.mastfoot.mb-auto{
+    padding-bottom: 40px;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #212529;
+    color: white;
+    position: initial;
+}
+
+
+
+::-webkit-scrollbar {
+	width: 12.2px;
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 1000px #38383b; 
+}
+
+::-webkit-scrollbar-thumb {
+	background: #202225; 
+	border-radius: 4px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(84, 81, 81); 
+  }
