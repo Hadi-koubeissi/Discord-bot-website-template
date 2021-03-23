@@ -134,6 +134,13 @@ ul.social-icons {
 .add_to_discord:hover {
     background-color: rgb(152, 67, 233);
 }
+.commandstitle {
+    color: #ffffff;
+}
+.commandssub {
+    color: gray;
+}
+
 
 .mastfoot.mb-auto{
     padding-bottom: 40px;
@@ -145,7 +152,6 @@ ul.social-icons {
     color: white;
     position: initial;
 }
-
 
 
 ::-webkit-scrollbar {
