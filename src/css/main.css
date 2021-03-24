@@ -140,7 +140,64 @@ ul.social-icons {
 .commandssub {
     color: gray;
 }
-
+.searchbox {
+    background-color: #2b2a38;
+    padding: 15px 27px;
+    font-size: 20px;
+    color: #ccc;
+    border: 3px solid #2b2a38;
+    border-radius: 8px;
+    width: 40%;
+}
+.border {
+    width: 65%;
+    height: 2px;
+    background: #fff;
+    margin-left: 17.5%;
+}
+.collapsible {
+    background-color: #202225;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 23px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .collapsible span {
+    font-size: 14px;
+    color: grey;
+}
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  .content {
+    padding: 0 18px;
+    width: 50%;
+    margin-left: 25%;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #2f3136;
+    color: #6a707a;
+    text-align: left;
+    display: none;
+  }
+  .content h4 {
+    margin-top: 12px;
+    font-size: 20px;
+    font-family: 'Cairo';
+  }
 
 .mastfoot.mb-auto{
     padding-bottom: 40px;
