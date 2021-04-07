@@ -3,14 +3,14 @@ Stunning website with good UI design for the new Discord bots, built with Bootst
 
 ## main page:
 
-![Screenshot1](https://raw.githubusercontent.com/Hadi-Koubeissi/Discord-bot-website-template/master/Screenshot/1.png)
+![Screenshot1](https://raw.githubusercontent.com/Hadi-Koubeissi/Discord-bot-website-template/master/Screenshot/1.PNG)
 
-![Screenshot2](https://raw.githubusercontent.com/Hadi-Koubeissi/Discord-bot-website-template/master/Screenshot/2.png)
+![Screenshot2](https://raw.githubusercontent.com/Hadi-Koubeissi/Discord-bot-website-template/master/Screenshot/2.PNG)
 
-![Screenshot3](https://raw.githubusercontent.com/Hadi-Koubeissi/Discord-bot-website-template/master/Screenshot/3.png)
+![Screenshot3](https://raw.githubusercontent.com/Hadi-Koubeissi/Discord-bot-website-template/master/Screenshot/3.PNG)
 
 ## command page:
-![Screenshot4](https://raw.githubusercontent.com/Hadi-Koubeissi/Discord-bot-website-template/master/Screenshot/4.png)
+![Screenshot4](https://raw.githubusercontent.com/Hadi-Koubeissi/Discord-bot-website-template/master/Screenshot/4.PNG)
 
 and more pages I couldn't Screenshot them
 
