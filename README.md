@@ -17,7 +17,7 @@ and more pages I couldn't Screenshot them
 # Installing
 Download or fork the repo
 
-`git clone https://github.com/Hadi-Koubeissi/Discord-bot-website-templat`
+`git clone https://github.com/Hadi-Koubeissi/Discord-bot-website-template`
 
 open index.html with any code editor and edit the name or logo and then have fun.
 
