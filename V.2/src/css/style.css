@@ -1,155 +1,103 @@
-div#footerinfo {
-    margin-bottom: -35px;
-  }
+.footer-clean {
+  padding:50px 0;
+  color:#f8f9fa;
+}
 
-  h6.text-uppercase.font-weight-bold.mb-4 {
-    color: #ffffff;
-  }
-  .col-lg-2.col-md-6.mb-4.mb-lg-0 {
-    padding-left: 30px;
-    padding-top: 15px;
-  }
-  .col-lg-4.col-md-6.mb-4.mb-lg-0 {
-    padding-left: 30px;
-    padding-top: 15px;
-  }
-  .bot-footer {
-    margin-bottom: 10px;
-  }
-  .botname-footer {
-    color: #454dfc;
-    font-size: 20px;
-  }
-  .botdes-footer {
-    color: #ffffffb3!important;
-  }
-  svg#icon-footer {
-    color: #454dfc;
-    font-size: 20px;
-    margin-right: 20px;
-  }
-  
-  .Hbot {
-      color: #AD91FF !important;
-  }
-  .Hbot:hover {
-      font-size: 30px;
-      text-shadow: #ffffff;
-  }
-  .textt {
-      color: #a2a8bd;
-  }
-  .center{
-    margin-top: 40px;
-  }
-  .card.w-75.mt-4.p-2 {
-    margin-top: 50px!important;
-  }
-  .card:hover {
-    border: 1px solid #454dfc;
-    transform: translateY(-5px);
-    transition: 0.5s all;
-    box-shadow: 0px 5px 1.5rem rgb(69 77 252 / 25%);
-  }
-  .cardds{
-    margin-top: 30px !important;
-    padding: 60px 50px !important;
-  }
-  svg#stats-icon {
-    color: #454dfc;
-    font-size: 35px;
-  }
-  span.d-block.mt-3.count-num.fw-bold {
-    font-size: 25px;
-  }
-  span.stats-desc {
-    font-size: 15px;
-    color: hsl(0deg 0% 100% / 70%);
-    font-weight: 100;
-  }
-  .bgseconde {
-      padding-bottom: 25px;
-      background-color: #454dfc;
-  
-  }
-  
-  div#test {
-    border-radius: 25px;
-  }
-  
-  button.btn.btn-get-started.text-center {
-    background-color: #ffffff;
-    color: #454dfc;
-    border-radius: 30px;
-    padding: 12px 22px;
-  }
-  button.btn.btn-get-started.text-center:hover {
-    background-color: #ffffffb3;
-  
-  }
-  .getstarted-box.p-5 {
-    padding: 1rem!important;
-  }
-  
-  h2.text-center.fw-bold.get-title {
-    margin-bottom: 25px;
-    font-size: 25px;
-    font-weight: 700;
-    color: #151529;
-  }
-  
-  .ttjoin {
-      color: #ffffff;
-      font-weight: 500;
-      font-size: 36px;
-      line-height: 51px;
-  }
-  span {
-      font-weight: 700;
-  }
-  .footer-social-icons {
-      width: 350px;
-      display: block;
-      margin: 0 auto;
-      align-items: center;
-  }
-  .social-icon {
-      color: #fff;
-  }
-  ul.social-icons {
-      margin-top: 10px;
-  }
-  .social-icons li {
-      vertical-align: top;
-      display: inline;
-      height: 100px;
-  }
-  .social-icons a {
-      color: #fff;
-      text-decoration: none;
-  }
-  .add_to_discord {
-      display: flex;
-      align-items: center;
-      background-color: blueviolet;
-      border-radius: 8px;
-      border: 0;
-      font-weight: 600;
-      font-size: 17px !important;
-      line-height: 21px !important;
-      color: #fff;
-      padding: 27px;
-      height: 58px;
-      outline: none;
-  }
-  .add_to_discord svg {
-      padding-right: 20px;
-      box-sizing: unset;
-  }
-  .add_to_discord:hover {
-      background-color: rgb(152, 67, 233);
-      text-decoration: none;
-    }
+.footer-clean h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
 
-/* BOOTSTRAP V.4 -_- */
+.footer-clean ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
 
+.footer-clean ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity:1;
+}
+
+.footer-clean .item.social {
+  text-align:right;
+}
+
+.footer-clean .item.social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin-left:10px;
+  margin-top:22px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-clean .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-clean .copyright {
+  margin-top:14px;
+  margin-bottom:0;
+  font-size:13px;
+  opacity:0.6;
+}
+hr {
+  border: 1px solid aqua;
+  margin: 1rem;
+  opacity: .25;
+}
+.card {
+  background-color: #2b2d30;
+  color: #fff;
+  margin-left: 9px;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	color: #ffffff;
+}
+
+::-webkit-scrollbar-track {
+	background: #212529;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #4856ee;
+	border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #3c48c5;
+}
+
+::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: rgb(219, 219, 219);
+	opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: rgb(219, 219, 219);
+}
+
+::-ms-input-placeholder {
+	/* Microsoft Edge */
+	color: rgb(219, 219, 219);
+}

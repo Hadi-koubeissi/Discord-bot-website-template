@@ -8,6 +8,8 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link rel="shortcut icon" href="./img/" type="image/x-icon">
     <title>Aris Bot</title>
 </head>
@@ -28,7 +30,7 @@
                     <li class="nav-item"><a href="#Features" class="nav-link">Features</a></li>
                     <li class="nav-item"><a href="#Statics" class="nav-link">Statics</a></li>
                     <li class="nav-item"><a href="#FAQ" class="nav-link">Ask me</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Commands</a></li>
+                    <li class="nav-item"><a href="./pages/commands.html" class="nav-link">Commands</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="linksdrop" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">Links</a>
@@ -192,41 +194,50 @@
 
     <!-- footer -->
 
-    <footer class="page-footer bg-dark text-light py-3">
-        <div class="container text-center text-md-left mt-5">
-            <div class="row">
-                <div class="col-md-3 mx-auto mb-4">
-                    <h6 class="text-uppercase font-weight-bold">Aris Bot</h6>
-                    <hr class="bg-info mb-4 mt-0 d-inline-block mx-auto" style="width: 125px; height: 2px;">
-                    <p class="mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, porro.</p>
-                </div>
-
-                <div class="col-md-2 mx-auto mb-4">
-                    <h6 class="text-uppercase font-weight-bold">Usefull Links</h6>
-                    <hr class="bg-info mb-4 mt-0 d-inline-block mx-auto" style="width: 110px; height: 2px;">
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-light">invite Bot</a></li>
-                        <li><a href="#" class="text-light">Support Server</a></li>
-                        <li><a href="#" class="text-light">Dev Team</a></li>
+    <div class="footer-clean bg-dark">
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>Quick access</h3>
+                    <ul>
+                        <li><a href="#Features">Features</a></li>
+                        <li><a href="#Statics">Statics</a></li>
+                        <li><a href="#FAQ">Ask me</a></li>
                     </ul>
                 </div>
-
-                
-                <div class="col-md-3 mx-auto mb-4">
-                    <h6 class="text-uppercase font-weight-bold">Usefull Links</h6>
-                    <hr class="bg-info mb-4 mt-0 d-inline-block mx-auto" style="width: 110px; height: 2px;">
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-light">invite Bot</a></li>
-                        <li><a href="#" class="text-light">Support Server</a></li>
-                        <li><a href="#" class="text-light">Dev Team</a></li>
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="./pages/commands.html">Commands</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">License</a></li>
                     </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="#">Support server</a></li>
+                        <li><a href="#">Invite bot</a></li>
+                        <li><a href="#">Github</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 item social"><a href="#"><ion-icon name="logo-discord"></ion-icon></a><a href="#"><ion-icon name="logo-facebook"></ion-icon></a><a href="#"><ion-icon name="logo-twitter"></ion-icon></a><a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <p class="copyright">Aris Bot © 2022</p>
                 </div>
             </div>
         </div>
+        <div class="page-footer font-small text-light mt-5">
+        <div class="footer-copyright text-center">Made with 💖 by
+            <a href="https://github.com/Hadi-koubeissi/">Hadi Koubeissi</a>
+            © 2020 Copyright
+          </div>
+        </div>
     </footer>
-
+</div>
 
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 
 </html>
