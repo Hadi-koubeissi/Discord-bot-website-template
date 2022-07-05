@@ -7,10 +7,10 @@ In this version, many things have been changed on the site to make it more wonde
 
 ## main page:
 
-![Screenshot1](https://raw.githubusercontent.com/Hadi-Koubeissi/Discord-bot-website-template/Main/src/Screenshot.PNG)
+![Screenshot1](https://raw.githubusercontent.com/Hadi-Koubeissi/Discord-bot-website-template/Main/assets/Screenshot.PNG)
 
 ## command page:
-![Screenshot4](https://raw.githubusercontent.com/Hadi-Koubeissi/Discord-bot-website-template/Main/src/Screen2.PNG)
+![Screenshot4](https://raw.githubusercontent.com/Hadi-Koubeissi/Discord-bot-website-template/Main/assets/Screen2.PNG)
 
 and more pages...
 
